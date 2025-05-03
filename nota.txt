@@ -2,3 +2,4 @@
 
 yarn add framer-motion // esto es para las animacion
 yarn add query-string // para la busqueda
+yarn add --dev @testing-library/react @testing-library/dom

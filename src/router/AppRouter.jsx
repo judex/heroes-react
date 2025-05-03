@@ -9,11 +9,14 @@ export const AppRouter = () => {
   return (
     <>
       <Routes>
+        // prettier-ignore
         <Route
           path="login/*"
           element={
             <PublicRoute>
-              <LoginPage />
+              <Routes>
+                <Route path="/*" element={<LoginPage />} />
+              </Routes>
             </PublicRoute>
           }
         />
