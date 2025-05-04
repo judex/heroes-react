@@ -28,6 +28,7 @@ export const SearchPage = () => {
     <>
       <div className="font-black text-2xl mb-6">Searching Page</div>
       <form
+        aria-label="form"
         autoComplete="off"
         className="max-w-md mx-auto"
         onSubmit={onSearchSubmit}
